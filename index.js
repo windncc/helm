@@ -229,8 +229,8 @@ async function run() {
       args.push("--atomic");
     }
 
-    if (wait === true) {
-      args.push("--wait")
+    if (wait === true || wait === "true") {
+      args.push("--wait");
     }
 
     // Setup necessary files.
