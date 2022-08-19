@@ -29,7 +29,7 @@ inputs:
     required: false
   wait:
     desctiption: If true, wait until process changes success, defaults to true
-    required: true
+    required: false
   helm:
     description: Helm binary to execute, one of [helm, helm3].
     required: false
